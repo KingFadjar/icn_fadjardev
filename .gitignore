@@ -1,0 +1,46 @@
+echo "# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+*.log
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# Build
+dist/
+.next/
+out/
+build/
+.cache/
+
+# Prisma
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+
+# Env files (jangan pernah commit API key, DB password, dll)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+backend/.env
+frontend/.env.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+*.env.docker"
+node_modules
